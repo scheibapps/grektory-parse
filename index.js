@@ -29,9 +29,9 @@ var mountPath = process.env.PARSE_MOUNT || '/parse';
 app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
+    window.open('index.html');
     res.status(200).send('I dream of being a web site.');
-    window.open('./index.html');
 });
 
 var port = process.env.PORT || 1337;
