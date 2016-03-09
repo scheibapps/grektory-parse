@@ -1,11 +1,11 @@
 {
-  "name": "parse-server-example",
+  "name": "grektory-parse",
   "version": "1.2.0",
-  "description": "An example Parse API server using the parse-server module",
+  "description": "A parse server used by the Grektory app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ParsePlatform/parse-server-example"
+    "url": "https://github.com/scheibapps/grektory-parse"
   },
   "license": "MIT",
   "dependencies": {

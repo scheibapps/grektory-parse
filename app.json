@@ -19,7 +19,11 @@
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "value": "http://grektory.herokuapp.com/parse"
+    },
+    "NET_KEY": {
+      "description": "A key used by .NET applications",
+      "value":  "my dotNetKey"
     }
   },
   "image": "heroku/nodejs",
