@@ -1,4 +1,4 @@
-# parse-server-example
+# grektory-parse
 
 Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
 
